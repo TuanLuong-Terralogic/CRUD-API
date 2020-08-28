@@ -1,0 +1,34 @@
+{
+  "name": "crudapi",
+  "version": "1.0.0",
+  "description": "Create CRUD api",
+  "main": "server.js",
+  "author": "Tuan Luong",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.4",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "datauri": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.1",
+    "mongoose-aggregate-paginate-v2": "^1.0.42",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
